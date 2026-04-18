@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+.calculatrice{
+    background-color: black;
+    border-radius: 25px;
+    width: 340px;
+    padding: 20px;
+}
+.texte{
+    border-radius: 50%;
+    background-color: rgb(141, 91, 91);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.ecran{
+     background-color: grey;
+     border-radius: 10px;
+     border: none;
+     height: 70px;
+    width: 90%;
+    color: rgb(255, 255, 255);
+     text-align: right;
+     font-size: 30px;
+     margin-bottom: 15px;
+}
+.bouton{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 15px;
+}
+button{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.gray{
+    background-color: rgb(126, 125, 125);
+}
+.orange{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+.chiffre{
+    background-color: black;
+    color: white;
+    font-weight:bold ;
+}
+.chiffre0{
+    grid-column: span 2;/*pour 2 prendres des colonnes et le span 2 preciser le nombre de colunnes qu'on va prendre*/
+    width: 88%;
+    text-align: left;
+    border-radius: 50px;
+    padding-left: 25px;
+
+}
+.gray:hover{
+    background-color: white;
+}
+.orange:hover{
+    background-color: rgb(111, 78, 25);
+}
+.chiffre:hover{
+    background-color: rgb(143, 139, 139);
+}   
